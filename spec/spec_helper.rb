@@ -2,6 +2,7 @@ require "pry"
 require "rspec"
 require "date"
 
+require_relative "../lib/animal"
 require_relative "../lib/cage"
 require_relative "../lib/employee"
 require_relative "../lib/reptile"

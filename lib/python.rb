@@ -1,9 +1,5 @@
-class Python
+class Python < Animal
   include Reptile
-  attr_reader :name
-  def initialize(name)
-    @name = name
-  end
 
   def speak
     "SSSSssssss..."

@@ -1,8 +1,4 @@
-class Gorilla
-  attr_reader :name
-  def initialize(name)
-    @name = name
-  end
+class Gorilla < Animal
 
   def speak
     "#{name} got a bad feeling about this..."

@@ -1,8 +1,4 @@
-class Fox
-  attr_reader :name
-  def initialize(name)
-    @name = name
-  end
+class Fox < Animal
 
   def speak
     "Ring-ding-ding-ding-dingeringeding!"
